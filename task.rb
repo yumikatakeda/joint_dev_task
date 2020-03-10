@@ -14,7 +14,7 @@ def q2
   array2 = %w(bird bat tiger)
 
   # 以下に回答を記載 
-  array=array1+array2
+  array = array1 + array2
   p array 
 end
 
@@ -45,14 +45,15 @@ def q6
   numbers1 = [1, 2, 3, 4, 5]
 
   # 以下に回答を記載
-
+  numbers2 = numbers1.map {|n| n * 10 } 
+  puts numbers2 
 end
 
 def q7
   array = ["1", "2", "3", "4", "5"]
 
   # 以下に回答を記載
-
+  p array.map!(&:to_i)
 end
 
 def q8
